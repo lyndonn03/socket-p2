@@ -16,5 +16,11 @@ In a “thread per request” model, the system allocates or uses a new thread t
 
 In this application, the server has a threadpool. This threadpool handles the request and sends a response to the client. Once the response is sent, it closes the socket connection and ends the program in that thread, leaving the thread inactive and ready for other incoming requests. 
 
+<br>
+
+![Thread per Request model drawio](https://user-images.githubusercontent.com/42237180/196432185-b2d989a8-ab0d-49aa-8969-c31a0bf91928.png)
+
+
+
 
 
